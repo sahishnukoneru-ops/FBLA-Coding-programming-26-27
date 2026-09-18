@@ -1,0 +1,40 @@
+# Attributions
+
+This file documents the third-party software and sample data used in **Harbor**, as required by the FBLA Coding & Programming guidelines ("Any use of copyrighted material, images, logos, or trademarks must be properly documented").
+
+## Open-Source Libraries
+
+| Library | Purpose in Harbor | License |
+|---|---|---|
+| [React](https://react.dev/) | UI framework — powers the volunteer calendar and leader desk views | MIT |
+| [TypeScript](https://www.typescriptlang.org/) | Static typing for shifts, volunteers, and hour logs | Apache-2.0 |
+| [Vite](https://vitejs.dev/) | Build tool / dev server — compiles Harbor into a standalone static site | MIT |
+
+> ⚠️ **Fill in before submitting:** the table above covers the core stack confirmed in the project README. If your `package.json` includes any additional runtime dependencies (a UI kit, icon set, date library, CSV helper, etc.), add a row for each one here with its license — check each package's `LICENSE` file or its npm page. Run `npm list --depth=0` in the project folder to get the full dependency list.
+
+No paid, proprietary, or unlicensed third-party code, fonts, images, or media assets are used. The interface uses system fonts only (no bundled or web-hosted font files).
+
+## Sample / Specimen Data
+
+Ridge Community Partners is a **fictional nonprofit** created for this competition. All data associated with it is invented for demonstration purposes and does not represent a real organization, real people, or real records:
+
+- Organization name, mission, and service-area ZIP codes
+- Volunteer roster (names, contact details, ages)
+- Shift schedule, categories, and capacities
+- Hour logs and reporting figures
+
+None of this data was copied from a live nonprofit's roster, a real volunteer-management product, or any other external source.
+
+## Original Work
+
+All source code — including validation logic, shift-matching logic, the reporting engine, and the Guide assistant — was written by Sahishnu Koneru for this competition. No code was copied from tutorials, templates, or other students' submissions.
+
+## Icons, Images & Media
+
+> ⚠️ **Fill in if applicable:** if Harbor uses any icon library, illustration, or image asset (including ones bundled with a UI library), list each one here with its source and license. If Harbor uses no external icons/images beyond plain HTML/CSS, you can state that directly, e.g.:
+
+*Harbor uses no external icons, illustrations, or image assets — all visual elements are built with plain HTML and CSS.*
+
+---
+
+*Last updated: [add date before submission]*
